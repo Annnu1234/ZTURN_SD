@@ -1,0 +1,10 @@
+2024-03-25T11:27:32.202362600255-11:27:32 **** Incremental Build of configuration Debug for project xilffs_polled_example_1 ****
+000-make all 
+000-make --no-print-directory pre-build
+000-a9-linaro-pre-build-step
+000-' '
+000-make --no-print-directory main-build
+000-make[1]: Nothing to be done for 'main-build'.
+00255-
+11:27:32 Build Finished (took 563ms)
+

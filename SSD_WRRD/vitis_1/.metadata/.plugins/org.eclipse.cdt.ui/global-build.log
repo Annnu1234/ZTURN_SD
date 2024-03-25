@@ -1,0 +1,16 @@
+Nothing to build in platform 'hard_plat'
+
+11:27:32 **** Incremental Build of configuration Debug for project xilffs_polled_example_1 ****
+make all 
+make --no-print-directory pre-build
+a9-linaro-pre-build-step
+' '
+make --no-print-directory main-build
+make[1]: Nothing to be done for 'main-build'.
+11:27:33 **** Incremental Build of configuration Debug for project xilffs_polled_example_1_system ****
+make all 
+Generating bif file for the system project
+generate_system_bif.bat 54974 D:/project/z_turn_board/SSD_WRRD/vitis_1/hard_plat/export/hard_plat/hard_plat.xpfm standalone_domain D:/project/z_turn_board/SSD_WRRD/vitis_1/xilffs_polled_example_1_system/Debug/system.bif
+sdcard_gen --xpfm D:/project/z_turn_board/SSD_WRRD/vitis_1/hard_plat/export/hard_plat/hard_plat.xpfm --sys_config hard_plat --bif D:/project/z_turn_board/SSD_WRRD/vitis_1/xilffs_polled_example_1_system/Debug/system.bif --bitstream D:/project/z_turn_board/SSD_WRRD/vitis_1/xilffs_polled_example_1/_ide/bitstream/design_1_wrapper.bit --elf D:/project/z_turn_board/SSD_WRRD/vitis_1/xilffs_polled_example_1/Debug/xilffs_polled_example_1.elf,ps7_cortexa9_0
+creating BOOT.BIN using D:/project/z_turn_board/SSD_WRRD/vitis_1/xilffs_polled_example_1/_ide/bitstream/design_1_wrapper.bit
+Running C:/xilinx/Vitis/2022.1/bin/bootgen  -image D:/project/z_turn_board/SSD_WRRD/vitis_1/xilffs_polled_example_1_system/Debug/sd_card_temp/boot.bif -w -o i BOOT.BIN

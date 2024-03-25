@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2022.1 (64-bit)
+# SW Build 3526262 on Mon Apr 18 15:48:16 MDT 2022
+# IP Build 3524634 on Mon Apr 18 20:55:01 MDT 2022
+# Start of session at: Mon Mar 25 11:00:20 2024
+# Process ID: 5284
+# Current directory: D:/project/z_turn_board/SSD_WRRD/SSD_WRRD.runs/impl_1
+# Command line: vivado.exe -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: D:/project/z_turn_board/SSD_WRRD/SSD_WRRD.runs/impl_1/design_1_wrapper.vdi
+# Journal file: D:/project/z_turn_board/SSD_WRRD/SSD_WRRD.runs/impl_1\vivado.jou
+# Running On: DESKTOP-G4NMOFE, OS: Windows, CPU Frequency: 2496 MHz, CPU Physical cores: 10, Host memory: 42660 MB
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
